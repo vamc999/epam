@@ -14,8 +14,8 @@ class TestFirst2CharsA {
 	}
 	@Test
 	void test() {
-		String str = f2a.getFirst2Chars("AAunivercity");
-		assertEquals("AA", str);
+		String str1 = f2a.getFirst2Chars("AAunivercity");
+		assertEquals("AA", str1);
 	}
 
 }
